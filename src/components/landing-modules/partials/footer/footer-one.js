@@ -47,7 +47,7 @@ const FooterOne = memo((prop) => {
                 <h5 className="mb-4 text-white">Get In touch</h5>
                     <p>Need help? Let us hear about it!</p>
                     <p>Email us at:</p>
-                    <Link to="#" className="text-decoration-underline text-white">support@hopeui.com</Link>
+                    <Link to="#" className="text-decoration-underline text-white">support.com</Link>
                     <ul className="list-unstyled p-0 m-0 d-flex mt-4">
                         <li>
                             <Link to="#"><img src={image1} alt="fb" loading="lazy" className="rounded-pill"/></Link>
@@ -65,7 +65,7 @@ const FooterOne = memo((prop) => {
             </Col>
             <hr/>
             <Col md={12} className="text-center">
-                <p>©<script>document.write(new Date().getFullYear())</script> Hope UI, All Rights Reserved.</p>
+                <p>©<script>document.write(new Date().getFullYear())</script> CDAC UI, All Rights Reserved.</p>
             </Col>
         </Row>
     </Container>

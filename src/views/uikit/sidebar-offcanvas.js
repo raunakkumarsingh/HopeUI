@@ -76,6 +76,7 @@ const SidebarOffcanvas =()=> {
                                     <ul className="list-unstyled ps-3 " id="forms-collapse" to="#forms">
                                         <li><Nav.Link className="d-inline-flex align-items-center rounded" href="#overview">Overview</Nav.Link></li>
                                         <li><Nav.Link className="d-inline-flex align-items-center rounded" href="#disabled-forms">Disabled Forms</Nav.Link></li>
+                                        <li><Nav.Link className="d-inline-flex align-items-center rounded" href="#formlab">Form lab</Nav.Link></li>
                                         <li><Nav.Link className="d-inline-flex align-items-center rounded" href="#sizing">Sizing</Nav.Link></li>
                                         <li><Nav.Link className="d-inline-flex align-items-center rounded" href="#input-group">Input Group</Nav.Link></li>
                                         <li><Nav.Link className="d-inline-flex align-items-center rounded" href="#a-form-control">Alertnate Input</Nav.Link></li>

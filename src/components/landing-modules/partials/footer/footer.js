@@ -34,7 +34,7 @@ const Footer = memo(() => {
                                 <rect x="10.5562" y="-0.556152" width="28" height="4" rx="2"
                                     transform="rotate(45 10.5562 -0.556152)" fill="currentColor" />
                             </svg>
-                            <h4 className="logo-title ms-3 text-white">Hope Ui</h4>
+                            <h4 className="logo-title ms-3 text-white">CDAC Ui</h4>
                         </Link>
                         <p className="text-white my-4">It is a long established fact that a reader will be distracted by the readable content of a page when
                             looking at its layout. </p>

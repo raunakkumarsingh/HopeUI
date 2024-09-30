@@ -64,7 +64,7 @@ const FooterTwo = memo((props) => {
             <hr className="bottom-hr" />
             <Col md={12} className="text-center">
                 <p>©
-                    <script>document.write(new Date().getFullYear())</script> Hope UI, All Rights Reserved.
+                    <script>document.write(new Date().getFullYear())</script> CDAC UI, All Rights Reserved.
                 </p>
             </Col>
         </Row>

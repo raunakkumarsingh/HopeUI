@@ -21,7 +21,7 @@ const ContactDetail = memo(() => {
             <Col lg={5} className='contact-detail mt-4 mt-lg-0'>
                 <h5 className="mb-2">Themes, E-commerce website,
                     Dashboard and Apps.</h5>
-                    <p className="mb-2">contact@hopeui.com</p>
+                    <p className="mb-2">contact@ui.com</p>
                     <p>(239) 555-0108</p>
             </Col>
         </Row>

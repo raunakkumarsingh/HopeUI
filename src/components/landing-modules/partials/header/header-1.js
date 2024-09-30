@@ -30,7 +30,7 @@ const Header1 = memo(() => {
                 <rect x="10.5366" y="16.3945" width="16" height="4" rx="2" transform="rotate(45 10.5366 16.3945)" fill="currentColor"></rect>
                 <rect x="10.5562" y="-0.556152" width="28" height="4" rx="2" transform="rotate(45 10.5562 -0.556152)" fill="currentColor"></rect>
             </svg> 
-            <h5 className="logo-title">Hope UI</h5>
+            <h5 className="logo-title">CDAC UI</h5>
         </Link>
         </div>  
         <ul className="d-block d-xl-none list-unstyled m-0">
@@ -63,7 +63,7 @@ const Header1 = memo(() => {
                 <rect x="10.5366" y="16.3945" width="16" height="4" rx="2" transform="rotate(45 10.5366 16.3945)" fill="currentColor"></rect>
                 <rect x="10.5562" y="-0.556152" width="28" height="4" rx="2" transform="rotate(45 10.5562 -0.556152)" fill="currentColor"></rect>
             </svg> 
-            <h5 className="logo-title ms-3">Hope UI</h5>
+            <h5 className="logo-title ms-3">CDAC UI</h5>
         </Link>
             <Nav as="ul" className=" navbar-nav  align-items-center navbar-list d-none d-xl-flex">
               <Nav.Item as="li">
