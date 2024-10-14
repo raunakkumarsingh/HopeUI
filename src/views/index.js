@@ -558,58 +558,6 @@ const Index = () => {
                     </ul>
                   </Collapse>
                 </li>
-                <li className="my-2">
-                  <Button
-                    variant=" d-inline-flex align-items-center "
-                    onClick={() => setOpen4(!open4)}
-                    aria-controls="example-collapse-text"
-                    aria-expanded={open4}
-                  >
-                    <i className="right-icon me-2">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        className="icon-18"
-                        width="18"
-                        fill="none"
-                        viewBox="0 0 24 24"
-                        stroke="currentColor"
-                      >
-                        <path
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          strokeWidth="2"
-                          d="M9 5l7 7-7 7"
-                        ></path>
-                      </svg>
-                    </i>
-                    Forms
-                  </Button>
-                  <Collapse in={open4}>
-                    <ul
-                      className="list-unstyled ps-3 "
-                      id="forms-collapse"
-                      to="#forms"
-                    >
-                      
-                      <li>
-                    <Nav.Link
-                      className="d-inline-flex align-items-center rounded"
-                      href="#formlab"
-                    >
-                      Form lab
-                    </Nav.Link>
-                  </li>
-                      <li>
-                    <Nav.Link
-                      className="d-inline-flex align-items-center rounded"
-                      href="#formlab"
-                    >
-                      Login
-                    </Nav.Link>
-                  </li>
-                    </ul>
-                  </Collapse>
-                </li>
                 <li className="mb-2">
                   <Button
                     variant=" d-inline-flex align-items-center "
@@ -677,6 +625,31 @@ const Index = () => {
                     </ul>
                   </Collapse>
                 </li>
+                <li className="my-2">
+                  <Button
+                    variant=" d-inline-flex align-items-center "
+                    onClick={() => window.location.href = '/forms'}
+                  >
+                    <i className="right-icon me-2">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        className="icon-18"
+                        width="18"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
+                          d="M9 5l7 7-7 7"
+                        ></path>
+                      </svg>
+                    </i>
+                    Forms
+                  </Button>
+                </li>
               </ul>
             </div>
           </aside>
@@ -712,6 +685,16 @@ const Index = () => {
               <Toasts />
               <Tooltips />
             </section>
+            <section id="Forms">
+              <div className="iq-side-content sticky-xl-top">
+                <Card className="">
+                  <Card.Body className="">
+                    <h4 className="fw-bold">Form</h4>
+                  </Card.Body>
+                </Card>
+              </div>
+              <Formlab/>
+            </section>
             <section id="forms">
               <div className="iq-side-content sticky-xl-top">
                 <Card className="">
@@ -742,16 +725,6 @@ const Index = () => {
               <Images />
               <Tables />
               <Figures />
-            </section>
-            <section id="Forms">
-              <div className="iq-side-content sticky-xl-top">
-                <Card className="">
-                  <Card.Body className="">
-                    <h4 className="fw-bold">Form</h4>
-                  </Card.Body>
-                </Card>
-              </div>
-              <Formlab/>
             </section>
           </div>
         </div>

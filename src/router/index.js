@@ -4,6 +4,7 @@ import Boxed from '../layouts/dashboard/boxed'
 import DualHorizontal from '../layouts/dashboard/dual-horizontal'
 import DualCompact from '../layouts/dashboard/dual-compact'
 import BoxedFancy from "../layouts/dashboard/boxed-fancy"
+import Form from '../views/form/form'
 
 export const IndexRouters = [
     {
@@ -25,5 +26,9 @@ export const IndexRouters = [
     {
         path: 'boxed',
         element: <Boxed />
+    },
+    {
+        path: 'forms',
+        element: <Form/>
     }
 ]

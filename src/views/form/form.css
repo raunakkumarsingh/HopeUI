@@ -1,0 +1,51 @@
+.app-container {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.file-section, .form-section, .design-section {
+    height: 100vh;
+    padding: 15px;
+    background-color: #f8f9fa;
+    overflow-y: auto;
+}
+
+.file-section {
+    border-right: 1px solid #e0e0e0;
+}
+
+.design-section {
+    border-left: 1px solid #e0e0e0;
+}
+
+.file-list ul {
+    padding: 0;
+}
+
+.file-list li {
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 8px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.file-list li:hover {
+    background-color: #e2e6ea;
+}
+
+.design-panel h5, .file-list h5 {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+}
+
+.design-panel form {
+    padding: 15px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
